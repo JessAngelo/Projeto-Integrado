@@ -1,0 +1,82 @@
+<section class="page-title">
+    <h2>Área Colaboradores</h2>
+</section>
+
+<section class="main-content">
+    <div class="courses-container">
+        <h3>Gerenciamento</h3>
+        <div class="course-list" id="course-list">
+            <div class="course-item">
+                <input type="radio" id="turma1" name="turmas">
+                <label for="turma1">Turma 1</label>
+                <span class="status">Cronograma: 0/0</span>
+            </div>
+            <div class="course-item">
+                <input type="radio" id="turma2" name="turmas">
+                <label for="turma2">Turma 2</label>
+                <span class="status">Cronograma: 0/0</span>
+            </div>
+            <div class="course-item">
+                <input type="radio" id="turma3" name="turmas">
+                <label for="turma3">Turma 3</label>
+                <span class="status">Cronograma: 0/0</span>
+            </div>
+            <div class="course-item">
+                <input type="radio" id="turma4" name="turmas">
+                <label for="turma4">Turma 4</label>
+                <span class="status">Cronograma: 0/0</span>
+            </div>
+            <div class="course-item">
+                <input type="radio" id="turma5" name="turmas">
+                <label for="turma5">Turma 5</label>
+                <span class="status">Cronograma: 0/0</span>
+            </div>
+        </div>
+
+        <div class="action-buttons">
+            <div class="btn1">
+                <a href="formALUNO.html" class="btn" style="text-align: center; font-size: medium; color: white; text-decoration: none;">Gerenciar Aluno</a>
+            </div>
+            <div class="btn1">
+                <a href="formDISCIPLINA.html" class="btn" style="text-align: center; font-size: medium;color: white; text-decoration: none;">Cadastro de disciplinas</a>
+            </div>
+            <div class="btn1">
+                <a href="formTURMA.html" class="btn" style="text-align: center; font-size: medium; color: white; text-decoration: none;">Gerenciar Série</a>
+            </div>
+            <div class="btn1">
+                <a href="form-professores.html" class="btn" style="text-align: center; font-size: medium; color: white; text-decoration: none;">Gerenciar Professores</a>
+            </div>
+            <div class="btn1">
+                <a href="Lista-Estudantes.html" class="btn" style="text-align: center; font-size: medium; color: white; text-decoration: none;">Lista de alunos</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="calendar-container">
+        <h3>Calendario</h3>
+        <div class="date-selectors">
+            <select id="select-day"></select>
+            <select id="select-month"></select>
+            <select id="select-year"></select>
+        </div>
+        <table id="calendar-table">
+            <thead>
+                <tr>
+                    <th>Dom</th>
+                    <th>Seg</th>
+                    <th>Ter</th>
+                    <th>Qua</th>
+                    <th>Qui</th>
+                    <th>Sex</th>
+                    <th>Sáb</th>
+                </tr>
+            </thead>
+            <tbody id="calendar-body">
+            </tbody>
+        </table>
+        <br>
+        <button id="mostrar-esconder">Mostrar/Esconder Atividades</button>
+    </div>
+</section>
+
+<script src="/js/scriptstelas.js"></script>
